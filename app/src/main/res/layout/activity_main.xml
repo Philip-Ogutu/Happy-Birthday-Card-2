@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+   <ImageView
+       android:id="@+id/cake"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerCrop"
+       android:src="@drawable/cake"/>
+    <TextView
+        android:id="@+id/Dear_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="20dp"
+        android:text="My Dear Friend!"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"/>
+    <TextView
+        android:id="@+id/Happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Dear_friend"
+        android:layout_marginRight="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Happy"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/Birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Happy"
+        android:layout_marginRight="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="BIRTHDAY"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/To_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/From_phil"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="20dp"
+        android:text="To You"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"/>
+    <TextView
+        android:id="@+id/From_phil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="20dp"
+        android:text="From Phil!"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"/>
+
+</RelativeLayout>
